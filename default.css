@@ -1,0 +1,84 @@
+body {
+  margin: 0px; /*required to override user agent stylesheet with 8px margin*/
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #bcbdc0;
+  transition: background-color 1s linear;
+}
+
+.quotebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #bcbdc0;
+  padding: 20px;
+  width: 30%;
+  min-height: 200px;
+  min-width: 450px;
+  transition: color 1s linear;
+}
+
+.quoteitems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #bcbdc0;
+  margin-top: auto;
+  margin-bottom: auto;
+  transition: color 1s linear;
+}
+
+.quoteauthor {
+  margin: 10px;
+  font-size: 18px;
+  align-self: flex-end;
+}
+
+.button {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #bcbdc0;
+  transition: background-color 1s linear;
+}
+
+#tweetButton {
+  font-size: 20px;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.buttonbar {
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1em;
+}
+
+.dev {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
